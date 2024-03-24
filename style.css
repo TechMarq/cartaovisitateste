@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .cartao {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .campo {
+    width: calc(30% - 6px);
+    height: calc(20% - 6px);
+    border: 2px dashed #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .campo.carimbado {
+    background-color: #9eff9e; /* Cor de fundo para indicar carimbado */
+  }
+  
