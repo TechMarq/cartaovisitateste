@@ -25,9 +25,18 @@ body {
     border: 2px dashed #000;
     border-radius: 5px;
     margin-bottom: 10px;
+    position: relative; /* Adiciona posição relativa para o campo */
   }
-
+  
+  .campo.carimbado img {
+    width: 100%;
+    position: absolute; /* Adiciona posição absoluta para a imagem dentro do campo */
+    top: 50%; /* Alinha a imagem verticalmente ao centro */
+    left: 50%; /* Alinha a imagem horizontalmente ao centro */
+    transform: translate(-50%, -50%); /* Centraliza a imagem */
+  }
+  
   .campo.carimbado {
-    background-color: #9eff9e; /* Cor de fundo para indicar carimbado */
+    border: none; /* Remove a borda ao ser carimbado */
   }
   
